@@ -1,22 +1,37 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
 # Credentials and local settings
 .env
+.env.*
+!.env.example
 *.pfx
 *.p12
 *.pem
 *.key
+*.crt
 
-# Generated audit output and caches
+# Generated audit output and local reports
 logs/*.jsonl
-__pycache__/
-*.pyc
-.pytest_cache/
+*.log
 
 # Tenant-specific files
 config/policy.local.json
-data/production-workers.csv
-.venv/
-logs/*.jsonl
 data/lab-workers.csv
-config/policy.local.json
+data/production-workers.csv
+data/*-production.csv
+
+# Local editor and OS files
+.vscode/settings.json
+.vscode/*.local.json
+.DS_Store
+Thumbs.db
+
+# Unredacted portfolio evidence
 screenshots/raw/
-.env
