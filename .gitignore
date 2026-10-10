@@ -1,0 +1,22 @@
+# Credentials and local settings
+.env
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Generated audit output and caches
+logs/*.jsonl
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Tenant-specific files
+config/policy.local.json
+data/production-workers.csv
+.venv/
+logs/*.jsonl
+data/lab-workers.csv
+config/policy.local.json
+screenshots/raw/
+.env

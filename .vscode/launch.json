@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Project 1 - Dry Run",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/identity_lifecycle.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--input",
+        "data/sample-workers.csv",
+        "--config",
+        "config/policy.json",
+        "--dry-run",
+        "--today",
+        "2026-09-12"
+      ],
+      "justMyCode": true
+    },
+    {
+      "name": "Project 1 - Read-only Graph Check",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/python/check_graph_connection.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--tenant-id",
+        "${env:AZURE_TENANT_ID}"
+      ],
+      "justMyCode": true
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+worker_id,first_name,last_name,upn,display_name,department,job_title,employment_status,start_date,termination_date,cost_center,location
+E1001,Adele,Vance,adele.vance@contoso.example,Adele Vance,Engineering,Software Engineer,Active,2026-09-15,,ENG-100,Seattle
+E1002,Max,Mustermann,max.mustermann@contoso.example,Max Mustermann,Finance,Analyst,Active,2026-09-01,,FIN-200,Berlin
+E1003,Jordan,Lee,jordan.lee@contoso.example,Jordan Lee,Engineering,Software Engineer,Terminated,2024-02-01,2026-09-10,ENG-100,Seattle

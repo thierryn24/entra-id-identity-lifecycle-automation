@@ -1,0 +1,41 @@
+{
+  "tenant_id": "REPLACE_WITH_TENANT_ID",
+  "verified_domain": "REPLACE_WITH_VERIFIED_DOMAIN",
+  "default_usage_location": "US",
+  "source_of_authority": "cloud",
+  "managed_group_ids": [],
+  "role_mappings": [
+    {
+      "department": "Engineering",
+      "job_title": "Software Engineer",
+      "group_ids": ["REPLACE_WITH_ENGINEERING_GROUP_ID"],
+      "license_group_ids": ["REPLACE_WITH_M365_E3_LICENSE_GROUP_ID"],
+      "ad_group_dns": ["CN=Engineering,OU=Groups,DC=contoso,DC=local"],
+      "direct_license_sku_ids": []
+    },
+    {
+      "department": "Finance",
+      "job_title": "Analyst",
+      "group_ids": ["REPLACE_WITH_FINANCE_GROUP_ID"],
+      "license_group_ids": ["REPLACE_WITH_M365_E3_LICENSE_GROUP_ID"],
+      "ad_group_dns": ["CN=Finance,OU=Groups,DC=contoso,DC=local"],
+      "direct_license_sku_ids": []
+    }
+  ],
+  "termination": {
+    "disable_account": true,
+    "revoke_sign_in_sessions": true,
+    "remove_managed_group_memberships": true,
+    "remove_direct_licenses": true,
+    "delete_user": false,
+    "preserve_mailbox_and_data": true
+  },
+  "execution": {
+    "max_actions_per_run": 100,
+    "max_terminations_per_run": 25,
+    "retry_attempts": 5,
+    "retry_base_seconds": 2,
+    "audit_log_directory": "logs",
+    "allow_placeholder_ids": false
+  }
+}
