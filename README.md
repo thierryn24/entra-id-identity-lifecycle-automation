@@ -1,5 +1,11 @@
 # Project 1 — Entra ID Identity Lifecycle Automation
 
+# Entra ID Identity Lifecycle Automation
+
+> A portfolio IAM project demonstrating Microsoft Entra ID joiner–mover–leaver
+> automation with Microsoft Graph, Python, PowerShell, and Azure Automation.
+
+
 > A portfolio/lab project that simulates identity and access management for a fictional healthcare organization, **TJ Health Care IAM Lab**.
 
 [![Status: portfolio lab](https://img.shields.io/badge/status-portfolio%20lab-blue)](docs/ARCHITECTURE.md)
