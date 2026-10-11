@@ -14,6 +14,17 @@ It is designed to show how an IAM engineer can automate approved identity change
 
 > **Scope notice:** This is a fictional healthcare-sector lab using synthetic identities. It is not a production system, is not HIPAA-certified, and does not process patient records or protected health information.
 
+## Why I built this project
+
+I am building this project as part of my goal to become an IAM engineer while
+studying for the Microsoft SC-300 certification.
+
+I wanted practical experience with Microsoft Entra ID, Microsoft Graph,
+PowerShell, Python, authentication, identity lifecycle management,
+offboarding, and audit logging.
+
+
+
 ## Business problem
 
 Manual onboarding, role changes, and offboarding can lead to delayed access, excessive group membership, unused licenses, and weak evidence of what changed. This project models a controlled lifecycle process that:
