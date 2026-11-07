@@ -35,7 +35,7 @@ python -m unittest discover -s tests -v
 Expected baseline:
 
 ```text
-Ran 7 tests
+Ran 11 tests
 OK
 ```
 
