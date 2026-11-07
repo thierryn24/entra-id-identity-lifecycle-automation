@@ -83,7 +83,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the detailed design and [do
 | Stage | Status | Evidence |
 | --- | --- | --- |
 | Local Python environment | Complete | VS Code virtual environment |
-| Offline unit tests | Complete | 7 tests passing |
+| Offline unit tests | Complete | 11 tests passing |
 | Azure CLI tenant authentication | Complete | Tenant-level login without subscription |
 | Read-only Graph connectivity | Complete | `/organization` check; `writes_performed=false` |
 | Real-tenant lifecycle dry-run | Next | One non-admin lab user and one lab group |
@@ -125,7 +125,7 @@ python -m unittest discover -s tests -v
 Expected result:
 
 ```text
-Ran 7 tests
+Ran 11 tests
 OK
 ```
 
